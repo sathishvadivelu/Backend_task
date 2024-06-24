@@ -1,0 +1,122 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output/
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional lock files
+package-lock.json
+yarn.lock
+
+# TypeScript compiled output
+dist/
+build/
+*.tsbuildinfo
+
+# Optional cache directory for npm 5
+package-lock.json
+yarn.lock
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache/
+
+# Next.js build output
+.next/
+out/
+
+# Nuxt.js build output
+.nuxt/
+dist/
+
+# Gatsby files
+.cache/
+public/
+
+# FuseBox cache
+.fusebox/
+
+# Sapper export directory (https://sapper.svelte.dev/docs#Exporting)
+__sapper__/
+export/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+.dockerignore
+Dockerfile
+Dockerfile.dev
+
+# TernJS
+.tern-project
+
+# Bazel
+.bazelbuild/
+.bazelproject
+.bazelrc
+bazel-out/
+bazel-bin/
+bazel-testlogs/
+bazel-genfiles/
+
+# Serverless directories
+.serverless/
+
+# Protractor end-to-end testing
+protractor-results/
+
+# Puppeteer screenshots
+screenshots/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/

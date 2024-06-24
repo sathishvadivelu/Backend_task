@@ -61,7 +61,7 @@ export const updateCustomerById = async (req, res) => {
       return res.status(400).json({ error: err.message });
     }
     const { id } = req.params;
-    const { firstName, lastName, email, phone } = req.body;
+    const { firstName, lastName, email, phone, dob, bankAccountNo } = req.body;
     const profileImage = req.file ? req.file.path : "";
     try {
       const updatedData = {
@@ -69,6 +69,8 @@ export const updateCustomerById = async (req, res) => {
         lastName,
         email,
         phone,
+        dob,
+        bankAccountNo,
       };
 
       if (profileImage) {
